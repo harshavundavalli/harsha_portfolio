@@ -7,11 +7,11 @@ export const personalData = {
   phone: '+19452787389',
   address: '955w president george bush highway, Richardson, Texas-75080 ',
   github: 'https://github.com/harshavundavalli',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  facebook: '',
   linkedIn: 'https://www.linkedin.com/in/harsha-vundavalli/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  twitter: '',
+  stackOverflow: '',
   leetcode: "https://leetcode.com/u/user7064c/",
-  devUsername: "said7388",
+  devUsername: "",
   resume: "https://drive.google.com/file/d/18P6XqbIyBG1CBMgJtMKAo4m3HV6oks02/view?usp=sharing"
 }
