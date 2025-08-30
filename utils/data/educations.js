@@ -1,20 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "M.S Computer Science",
+    duration: "2024 - Present",
+    institution: "University of Texas at Dallas",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "B.E Computer Science & Engineering",
+    duration: "2019 - 2023",
+    institution: "Birla Institute of Technology & Science Pilani, Hyderabad Campus",
   }
 ]
