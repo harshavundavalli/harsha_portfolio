@@ -1,12 +1,12 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
+        name: 'Real-time-Object-Detection-and-Tracking-for-Autonomous-Surveillance',
+        description: "Designed and implemented a lightweight real-time object detection and tracking system for autonomous surveillance. Utilized YOLOv8 for object detection and a simplified DeepSORT tracker for maintaining unique IDs across frames. Optimized for Apple Silicon (macOS), the system provides both a desktop interface and a web dashboard with live video feed and tracking logs, while also supporting custom YOLO model training for domain-specific applications.",
+        tools: ['Python', 'YOLOv8', 'OpenCV', 'DeepSORT', 'Flask', 'PyTorch', 'MPS (Apple Silicon)'],
+        role: 'Academic Project (Computer Vision & AI)',
+        code: 'https://github.com/yourusername/real-time-object-detection-tracking',
+        demo: 'http://localhost:5000'
     },
     {
         id: 2,

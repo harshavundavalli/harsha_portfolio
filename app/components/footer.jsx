@@ -23,14 +23,7 @@ function Footer() {
               <IoStar />
               <span>Star</span>
             </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/harshavundavalli/fork"
-              className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
-            >
-              <CgGitFork />
-              <span>Fork</span>
-            </Link>
+            
           </div>
         </div>
       </div>
