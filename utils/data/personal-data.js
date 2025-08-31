@@ -10,7 +10,7 @@ export const personalData = {
   facebook: '',
   linkedIn: 'https://www.linkedin.com/in/harsha-vundavalli/',
   twitter: '',
-  stackOverflow: '',
+  stackOverflow: 'https://',
   leetcode: "https://leetcode.com/u/user7064c/",
   devUsername: "",
   resume: "https://drive.google.com/file/d/18P6XqbIyBG1CBMgJtMKAo4m3HV6oks02/view?usp=sharing"
