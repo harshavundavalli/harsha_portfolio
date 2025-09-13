@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: rgb(211, 216, 232);
+  --foreground-rgb: rgb(255, 255, 255);
+  --background-primary: #0f172a;
+  --background-secondary: #1e293b;
+  --background-tertiary: #334155;
+  --accent-primary: #3b82f6;
+  --accent-secondary: #06b6d4;
+  --accent-tertiary: #8b5cf6;
+  --text-primary: #ffffff;
+  --text-secondary: #e2e8f0;
+  --text-muted: #94a3b8;
+  --border-color: #475569;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +24,13 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-color: #0d1224;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  min-height: 100vh;
+}
+
+/* Ensure anchor links account for fixed header height */
+:target {
+  scroll-margin-top: 6rem; /* matches pt-24 (96px) approx */
 }
 
 #sticky-card-1 {
